@@ -12,7 +12,7 @@ Screenshots
 
 How to run the example
 ------------------------
-* `https://github.com/pliablepixels/ionic-conference-app`
+* `git clone https://github.com/pliablepixels/ionic-conference-app`
 * `cd ionic-conference-app/example`
 * `npm install`
 * `ionic serve`
