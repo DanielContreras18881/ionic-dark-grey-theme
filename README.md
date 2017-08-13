@@ -26,7 +26,7 @@ To use it in your project, simply copy over the `src/themes/dark` files to `src/
 
 iOS Quirks
 -----------
-In iOS, you'll see a white background as you rotate the phone. To fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor). This plugin unfortunately doesn't work with `wkwebview`.
+In iOS, you'll see a white background as you rotate the phone. To fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor). This plugin unfortunately doesn't work with `wkwebview`. For a `wkwebview` specific solution, see [here](https://stackoverflow.com/a/44799013/1361529)
 
 
 ```
