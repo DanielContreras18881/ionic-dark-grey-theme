@@ -26,9 +26,8 @@ To use it in your project, simply copy over the `src/themes/dark` files to `src/
 
 iOS Quirks
 -----------
-Note, in iOS, you'll see a white background as you rotate the phone to fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor) 
+In iOS, you'll see a white background as you rotate the phone. To fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor). This plugin unfortunately doesn't work with `wkwebview`.
 
-(Doesn't work with wkwebview)
 
 ```
  ionic cordova plugin add cordova-plugin-webviewcolor
@@ -37,7 +36,7 @@ Note, in iOS, you'll see a white background as you rotate the phone to fix this,
  And then add this code to your app:
 
 ```
-plt.ready().then(() => {
+this.plt.ready().then(() => {
       if (this.plt.is('ios')) {
         // change 000 to whatever you need
          window['plugins'].webviewcolor.change('#000');
