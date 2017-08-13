@@ -1,4 +1,5 @@
-#Dark Theme for ionic2+ apps
+Dark Theme for ionic2+ apps
+----------------------------
 
 This is a "Work in Progress" Dark Theme implementation for ionic2+ apps.
 
@@ -11,8 +12,10 @@ This is a new 'dark theme' for ionic2+ apps. To use it in your project, simply c
 
 
 iOS Quirks
-===========
+-----------
 Note, in iOS, you'll see a white background as you rotate the phone to fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor) 
+
+(Doesn't work with wkwebview)
 
 ```
  ionic cordova plugin add cordova-plugin-webviewcolor
