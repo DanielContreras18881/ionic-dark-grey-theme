@@ -5,6 +5,11 @@ This is a "Work in Progress" Dark Theme implementation for ionic2+ apps.
 
 There are several components that still need styling, but its a start. Feel free to contribute with PRs. I'm also not sure if I did this the right way, so feel free to fix
 
+Screenshots
+------------
+<img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s1.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s2.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s3.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s4.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s5.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s8.PNG" height="400px"/>
+
+
 How to run the example
 ------------------------
 * `https://github.com/pliablepixels/ionic-conference-app`
