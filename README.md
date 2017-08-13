@@ -12,8 +12,8 @@ Screenshots
 
 How to run the example
 ------------------------
-* `git clone https://github.com/pliablepixels/ionic-conference-app`
-* `cd ionic-conference-app/example`
+* `git clone https://github.com/pliablepixels/ionic-dark-grey-theme`
+* `cd ionic-dark-grey-theme/example`
 * `npm install`
 * `ionic serve`
 
