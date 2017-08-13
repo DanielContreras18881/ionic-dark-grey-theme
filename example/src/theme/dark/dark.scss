@@ -4,9 +4,12 @@
 
 
 
-// Goofing around with my own Dark Theme
+// A new dark theme for ionic2+
 // ----------------------------------------
 
+// this can go into variables.scss too - I like 
+// it here so its in one place. If you move it to variables.scss,
+// remember to copy over the complete map and then extend it
 $colors: (
   primary:   (base: #eeae15, contrast:#000),
   secondary:  (base: #03A9F4, contrast: #000),
