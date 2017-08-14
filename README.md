@@ -1,7 +1,7 @@
-Dark Theme for ionic2+ apps
+Dark Theme for Ionic (2+) apps
 ----------------------------
 
-This is a "Work in Progress" Dark Theme implementation for ionic2+ apps.
+This is a "Work in Progress" Dark Theme implementation for Ionic (2+)  apps.
 
 There are several components that still need styling, but its a start. Feel free to contribute with PRs. I'm also not sure if I did this the right way, so feel free to fix
 
@@ -26,8 +26,7 @@ To use it in your project, simply copy over the `src/themes/dark` files to `src/
 
 iOS Quirks
 -----------
-In iOS, you'll see a white background as you rotate the phone. To fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor). This plugin unfortunately doesn't work with `wkwebview`. For a `wkwebview` specific solution, see [here](https://stackoverflow.com/a/44799013/1361529)
-
+In iOS, you'll see a white background as you rotate the phone. To fix this, you need to use a [plugin](https://github.com/EddyVerbruggen/cordova-plugin-webviewcolor):
 
 ```
  ionic cordova plugin add cordova-plugin-webviewcolor
@@ -36,9 +35,12 @@ In iOS, you'll see a white background as you rotate the phone. To fix this, you 
  And then add this code to your app:
 
 ```
-this.plt.ready().then(() => {
-      if (this.plt.is('ios')) {
-        // change 000 to whatever you need
-         window['plugins'].webviewcolor.change('#000');
-      }
+this.platform.ready().then(() => {
+  if (this.platform.is('ios')) {
+    // change #000 to whatever you need
+    window['plugins'].webviewcolor.change('#000');
+  }
+}
 ```
+
+This plugin unfortunately doesn't work with WKWebView. For a WKWebView specific solution, see [here](https://stackoverflow.com/a/44799013/1361529).
