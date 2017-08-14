@@ -78,7 +78,13 @@ $alert-input-background-color: #bdc3c7 !default;
 $alert-input-text-color: #242424 !default;
 
 
+::-webkit-scrollbar {
+  background-color: $toolbar-background;
+  }
 
+::-webkit-scrollbar-thumb {
+  background-color:#696969;
+  }
 
 .alert-input {
   color: $alert-input-text-color;
