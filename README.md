@@ -7,7 +7,7 @@ There are several components that still need styling, but its a start. Feel free
 
 Screenshots
 ------------
-<img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s1.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s2.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s3.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s4.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s5.PNG" height="400px"/><img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s8.PNG" height="400px"/>
+<img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s1.PNG" height="400px"/> <img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s2.PNG" height="400px"/> <img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s3.PNG" height="400px"/> <img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s4.PNG" height="400px"/> <img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s5.PNG" height="400px"/> <img src= "https://github.com/pliablepixels/ionic-dark-grey-theme/blob/master/example/resources/screenshots/s8.PNG" height="400px"/>
 
 
 How to run the example
